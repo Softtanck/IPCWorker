@@ -7,4 +7,5 @@ import android.os.Parcelable;
 interface ICsdMessenger {
   oneway void send(in Message msg);
   Message sendWithRsp(in Message msg);
+
 }
